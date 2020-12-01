@@ -297,7 +297,7 @@ def payment():
   pretty_print_response(payment_get_response)
   return jsonify({'error': None, 'payment': payment_get_response})
 
-# Retrieve high-level information about an Item
+#  Retrieve high-level information about an Item
 # https://plaid.com/docs/#retrieve-item
 @app.route('/api/item', methods=['GET'])
 def item():
